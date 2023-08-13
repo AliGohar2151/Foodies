@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Foodies" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="android:statusBarColor">@color/primary_yellow</item>
+
+    </style>
+
+    <style name="Theme.Foodies" parent="Base.Theme.Foodies" />
+
+    <style name="CustomProgressBar" parent="@style/Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">@color/custom_progress_color</item>
+    </style>
+</resources>
